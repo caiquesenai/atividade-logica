@@ -1,0 +1,29 @@
+Algoritmo "Atividade 01 Lógica de programação."
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Caíque de Carvalho Britto
+// Data atual  : 30/08/2023
+Var
+   // Seção de Declarações das variávei
+   a,b,c , resultado: inteiro
+Inicio
+   //
+   escreva("Informe um número:")
+   leia(a)
+   escreva("Informe um número:")
+   leia(b)
+   escreva("Informe um número:")
+   leia(c)
+
+   resultado <- a + b
+
+
+   se (resultado) < c entao
+      escreval("Valor da soma menor que C")
+   senao
+      escreval("Valor da soma maior que C")
+   fimse
+
+
+Fimalgoritmo
